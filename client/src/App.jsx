@@ -22,6 +22,7 @@ function App() {
   }
   const router=createBrowserRouter([{
     path:"/",
+    basename: "/FlexEdge",
     element:<Layout />,
     children:[
       {
